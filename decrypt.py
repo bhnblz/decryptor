@@ -1,3 +1,10 @@
+# Import python pyfiglet module to change the font of the output
+import pyfiglet
+
+# Import python colorama module to change the color of the font
+import colorama
+from colorama import Fore
+
 # Input the encrypted string
 encrypted_str = input("The encrypted string is: ")
 
@@ -27,3 +34,7 @@ def decrypt_str():
     return decrypted_str 
 
 output_str = decrypt_str()
+description = "Problem 2: Decryption"
+
+# Print the output
+print(pyfiglet.figlet_format(description, font = "slant"))
