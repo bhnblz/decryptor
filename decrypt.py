@@ -16,8 +16,11 @@ def decrypt_str():
     # If #, change to i
         elif j == "#":
             decrypted_str += "i" 
-    # If +, change o
+    # If +, change to o
         elif j == "+":
             decrypted_str += "o"
+    # If !, change to u
+        elif j == "!":
+            decrypted_str += "u"
         else:
             decrypted_str += j
