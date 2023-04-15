@@ -24,3 +24,6 @@ def decrypt_str():
             decrypted_str += "u"
         else:
             decrypted_str += j
+    return decrypted_str 
+
+output_str = decrypt_str()
