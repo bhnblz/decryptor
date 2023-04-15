@@ -13,5 +13,8 @@ def decrypt_str():
     # If &, change to e
         elif j == "&":
             decrypted_str += "e"
+    # If #, change to i
+        elif j == "#":
+            decrypted_str += "i" 
         else:
             decrypted_str += j
