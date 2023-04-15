@@ -38,3 +38,4 @@ description = "Problem 2: Decryption"
 
 # Print the output
 print(pyfiglet.figlet_format(description, font = "slant"))
+print(Fore.LIGHTMAGENTA_EX + (output_str))
