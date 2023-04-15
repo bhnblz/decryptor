@@ -10,7 +10,7 @@ def decrypt_str():
     # If *, change to a
         if j == "*":
             decrypted_str += "a"
-     # If &, change to e
+    # If &, change to e
         elif j == "&":
             decrypted_str += "e"
         else:
